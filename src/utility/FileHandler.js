@@ -8,6 +8,14 @@ class FileHandler {
         }
         return resolve(data);
       });
+    }).then((data) => {
+      return new Promise((resolve, reject) => {
+        try {
+          resolve(JSON.parse(data));
+        } catch (err) {
+          reject(err);
+        }
+      });
     });
   }
 
