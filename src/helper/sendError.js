@@ -3,3 +3,5 @@ const sendError = (err, req, res) => {
     message: err.message,
   });
 };
+
+module.exports = sendError;

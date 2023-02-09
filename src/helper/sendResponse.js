@@ -1,8 +1,8 @@
 const sendResponse = (req, res, configObj) => {
   const { statusCode, message, payload } = configObj;
-  res.status(statusCode).json({
-    message: message,
-    data: payload,
+  res.status(statusCode || 200).json({
+    message: message || "",
+    data: payload || "",
   });
 };
 
