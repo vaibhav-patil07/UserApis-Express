@@ -88,7 +88,7 @@ npm run dev
 #### Update User
 
 ```
-  POST /users/${id}
+  PUT /users/${id}
 ```
 
 | Parameter | Type     | Description                       |
@@ -118,7 +118,7 @@ npm run dev
 #### Delete User
 
 ```
-  GET /users/${id}
+  DELETE /users/${id}
 ```
 
 | Parameter | Type     | Description                       |
@@ -127,14 +127,12 @@ npm run dev
 
 (Response body - json) Deleted user
 ```json
-    [
-        {
-            "id": "string",
-            "name": "string",
-            "profileImage": "string",
-            "introduction":"string",
-            "profileLink": "string"
-        },...
-    ]
+    {
+        "id": "string",
+        "name": "string",
+        "profileImage": "string",
+        "introduction":"string",
+        "profileLink": "string"
+    }
 ```
 
