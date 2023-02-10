@@ -21,6 +21,7 @@ class FileHandler {
 
   static writeFileAsync(path, encoding, data) {
     return new Promise((resolve, reject) => {
+      data = JSON.stringify(data);
       fs.writeFile(path, data, encoding, (err) => {
         if (err) {
           return reject(err);
