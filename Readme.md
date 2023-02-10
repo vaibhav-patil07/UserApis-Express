@@ -22,13 +22,13 @@ npm run dev
 
 #### Get all users
 
-```http
+```
   GET /users
 ```
 
 #### Get User
 
-```http
+```
   GET /users/${id}
 ```
 
@@ -50,7 +50,7 @@ npm run dev
 ```
 #### Create User
 
-```http
+```
   POST /users
 ```
 (Request body - json)
@@ -76,7 +76,7 @@ npm run dev
 
 #### Update User
 
-```http
+```
   POST /users/${id}
 ```
 
@@ -106,7 +106,7 @@ npm run dev
 ```
 #### Delete User
 
-```http
+```
   GET /users/${id}
 ```
 
