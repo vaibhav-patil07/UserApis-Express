@@ -40,11 +40,11 @@ npm run dev
 ```json
     [
         {
-            "id": string,
-            "name": string,
-            "profileImage": string,
-            "introduction":string,
-            "profileLink": string
+            "id": "string",
+            "name": "string",
+            "profileImage": "string",
+            "introduction":"string",
+            "profileLink": "string"
         },...
     ]
 ```
@@ -57,20 +57,20 @@ npm run dev
 
 ```json
     {
-        "name": string,
-        "profileImage": string,
-        "introduction":string,
-        "profileLink": string
+        "name": "string",
+        "profileImage": "string",
+        "introduction":"string",
+        "profileLink": "string"
     }
 ```
 (Response body - json)
 ```json
     {
-        "id": string,
-        "name": string,
-        "profileImage": string,
-        "introduction":string,
-        "profileLink": string
+        "id": "string",
+        "name": "string",
+        "profileImage": "string",
+        "introduction":"string",
+        "profileLink": "string"
     }
 ```
 
@@ -88,20 +88,20 @@ npm run dev
 
 ```json
     {
-        "name": string,
-        "profileImage": string,
-        "introduction":string,
-        "profileLink": string
+        "name": "string",
+        "profileImage": "string",
+        "introduction":"string",
+        "profileLink": "string"
     }
 ```
 (Response body - json) Updated user
 ```json
     {
-        "id": string,
-        "name": string,
-        "profileImage": string,
-        "introduction":string,
-        "profileLink": string
+        "id": "string",
+        "name": "string",
+        "profileImage": "string",
+        "introduction":"string",
+        "profileLink": "string"
     }
 ```
 #### Delete User
@@ -118,11 +118,11 @@ npm run dev
 ```json
     [
         {
-            "id": string,
-            "name": string,
-            "profileImage": string,
-            "introduction":string,
-            "profileLink": string
+            "id": "string",
+            "name": "string",
+            "profileImage": "string",
+            "introduction":"string",
+            "profileLink": "string"
         },...
     ]
 ```
