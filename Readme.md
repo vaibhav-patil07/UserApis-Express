@@ -24,6 +24,19 @@ npm run dev
 
 ```
   GET /users
+  
+```
+(Response body - json)
+```json
+    [
+        {
+            "id": "string",
+            "name": "string",
+            "profileImage": "string",
+            "introduction":"string",
+            "profileLink": "string"
+        },
+    ]
 ```
 
 #### Get User
@@ -38,15 +51,13 @@ npm run dev
 
 (Response body - json)
 ```json
-    [
-        {
-            "id": "string",
-            "name": "string",
-            "profileImage": "string",
-            "introduction":"string",
-            "profileLink": "string"
-        },...
-    ]
+    {
+        "id": "string",
+        "name": "string",
+        "profileImage": "string",
+        "introduction":"string",
+        "profileLink": "string"
+    }
 ```
 #### Create User
 
